@@ -1,0 +1,67 @@
+.Up-Slide22 {
+    background-image: url(./img/APortBAckImg.avif);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.status-h22 {
+    color: white;
+}
+
+.back-22 {
+    box-shadow: 0px 0px 20px white;
+    margin: 0 auto;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 50%;
+
+}
+
+.record2 {
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    width: 160px;
+    height: 270px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.page22 {
+    border-radius: 30px;
+    margin-top: 30px;
+    border: 2px solid lightgray;
+    box-shadow: 0px 0px 20px white;
+    height: 350px;
+    width: 100px;
+}
+
+.About-h32t {
+    font-size: 35px;
+    color: white;
+
+}
+
+.skills-h32t {
+    font-size: 35px;
+    color: white;
+}
+
+.services-h3t {
+    font-weight: bold;
+    color: white;
+
+}
+
+.cont-h32t {
+    color: white;
+}
+
+.container2 {
+    border: 2px solid white;
+}
+

@@ -1,0 +1,477 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+.hel-h2 {
+    color: gray;
+}
+
+
+.name-h2 {
+    color: green;
+}
+
+.para {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.port-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.fa-brands {
+    color: white;
+
+}
+
+.fa-brands:hover {
+    color: greenyellow;
+    cursor: pointer;
+
+}
+
+.lable {
+    font-size: 10px;
+    color: white;
+}
+
+/* .main {
+    background-image: url(./img/backgroungimg.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+.status {
+    color: gray;
+}
+
+
+/* Container 2 lg-4 */
+.back {
+    /* box-shadow: 0px 0px 20px black; */
+    box-shadow: 0px 0px 20px greenyellow;
+    margin: 0 auto;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 50%;
+
+}
+
+.backimg {
+    left: 6px;
+    top: 10px;
+    position: absolute;
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+
+}
+
+.cont {
+    border: 4px solid green !important;
+}
+
+/* Conatiner 3 lg-2 */
+.record {
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    width: 160px;
+    height: 270px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.records-h4 {
+    color: green;
+
+}
+
+.record-para {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+
+}
+
+.page a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+
+}
+
+.page a:hover {
+    color: green;
+}
+
+
+.fa {
+    margin-top: 10px;
+}
+
+.page a span {
+    font-size: 12px;
+}
+
+
+
+
+/* conatiner 4 lg-2 */
+
+li {
+
+    list-style: none;
+}
+
+.page {
+    border-radius: 30px;
+    margin-top: 30px;
+    border: 2px solid lightgray;
+    box-shadow: 0px 0px 20px black;
+    height: 350px;
+    width: 100px;
+}
+
+.page-para {
+    font-size: 10px;
+    font-weight: bolder;
+    color: gray;
+}
+
+/* About page */
+.About-h {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: grey;
+}
+
+.About-h3 {
+    font-size: 35px;
+
+}
+
+.about-span {
+    color: green;
+}
+
+.Intro-about {
+    font-weight: bold;
+    color: grey;
+}
+
+.know {
+    display: flex;
+    box-shadow: 0px 0px 5px white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: gray;
+
+}
+
+@media (max-width:700px) {
+    .know {
+        display: none;
+    }
+}
+
+.fa-solid {
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 45%;
+
+    margin-right: -50px;
+    color: green;
+}
+
+.cont-para {
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+
+.span-ab {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 65px;
+}
+
+.about2 {
+    position: relative;
+
+}
+
+.about-img {
+    height: 350px;
+    width: 360px;
+    border: 2px solid green;
+}
+
+.about-more {
+    position: relative;
+
+}
+
+/* @media (max-width:700px) {
+    .about-more {
+        display: none;
+    }
+} */
+
+.about-more2 {
+    width: 200px;
+    position: absolute;
+    left: -100px;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    background-color: white;
+    top: 250px;
+}
+
+.about-more3 {
+    width: 150px;
+    position: absolute;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    background-color: white;
+    top: 200px;
+    left: -30px;
+}
+
+
+/* Skill page  */
+
+.skill-head {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: grey;
+}
+
+.skills-h3 {
+    font-size: 35px;
+}
+
+.skill-span {
+    color: green;
+}
+
+.skill-intro {
+    font-weight: bold;
+    color: grey;
+}
+
+.card .card-title {
+    text-align: center;
+    margin: 10px;
+    color: grey;
+
+}
+
+.card-body {
+    box-shadow: 0px 0px 20px white;
+}
+
+.card-img {
+    height: 100px;
+    width: 100%;
+    border: 2px solid green;
+
+}
+
+
+.card:hover {
+    border: 2px solid green;
+    box-shadow: 0px 0px 10px green;
+}
+
+/* Project Page */
+.pro-head {
+    font-weight: bold;
+    color: gray;
+}
+
+.pro-h3 {
+    color: green;
+}
+
+.img-fluid {
+    height: 80%;
+
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid greenyellow;
+}
+
+.project-h6 {
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.pro-para {
+    font-weight: bold;
+    color: rgb(151, 148, 148);
+}
+
+
+/* Servises page */
+.services-h6 {
+    font-weight: bold;
+    color: gray;
+}
+
+.ser-h3 {
+    color: green;
+}
+
+.services-h3 {
+    font-weight: bold;
+
+}
+
+.box {
+    border: 2px solid gray;
+}
+
+.ser-para {
+    font-weight: bold;
+    color: gray;
+}
+
+
+/* Contack Page */
+.cont-h3 {
+    font-size: 35px;
+}
+
+.cont-h6 {
+    font-weight: bold;
+    color: gray;
+
+}
+
+.cont-h5 {
+    font-weight: bold;
+    color: gray;
+}
+
+.cont-span {
+    color: green;
+}
+
+.Opinion {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+#tik {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    color: white;
+}
+
+.head,
+.form-label {
+    font-weight: bold;
+    color: gray;
+}
+
+
+.form-select:hover {
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.form-control:hover {
+    border: 2px solid green;
+
+}
+
+.form-control {
+    background: transparent;
+}
+
+
+
+
+.soom-2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
+}
+
+.m-p {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+input {
+    background-color: transparent;
+}
+
+
+/* Fotter */
+.ft-para {
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.ft-span {
+    color: greenyellow;
+}
+
+.top-bt {
+    font-size: 15px;
+    border: 2px solid green;
+    border-radius: 40px;
+    background-color: greenyellow;
+
+
+}
+
+.qui-lnk {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.qui-lnk:hover {
+    color: greenyellow;
+}
+
+
+/* classes for toggle dark mode */
